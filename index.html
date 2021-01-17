@@ -12,14 +12,14 @@
   <script>
     function sendMessage() {
       var request = new XMLHttpRequest();
-      request.open("POST", "https://discord.com/api/webhooks/800249177064996874/NIQAynhXjK-5X8Xi9llviK-kW0byTxSoSQ7z5ZGA0mDEKbdJ-tXzBMtSFNDjROODCj1r");
+      request.open("POST", "https://discord.com/api/webhooks/800250844771385385/GLp669jFzQ7mQdYL0ggEjzkqwAt_LDG7SwKLtLma-JIig4hko3g1LYdd9KFAl7bRNaVY");
 
       request.setRequestHeader('Content-type', 'application/json');
 
       var params = {
         username: "환영!!",
         avatar_url: "",
-        content: "환영합니당!!"
+        content: "@everyone"
       }
 
       request.send(JSON.stringify(params));
